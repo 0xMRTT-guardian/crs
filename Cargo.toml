@@ -18,7 +18,7 @@ clap = { version = "3.2.16", features = ["derive"] }
 url = "2.2.2"
 walkdir = "2"
 platform-dirs = "0.3.0"
-chrono = "0.4.19"
+chrono = "0.4.20"
 inquire = "0.2.1"
 regex = "1"
 execute = "0.2.11"
