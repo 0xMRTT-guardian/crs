@@ -13,6 +13,6 @@ jobs:
           id: Create_Issue_Branch
           uses: robvanderleek/create-issue-branch@main
           env:
-            GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOEKN }}
+            GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
         - name: Echo branch name
           run: echo ${{ steps.Create_Issue_Branch.outputs.branchName }}
