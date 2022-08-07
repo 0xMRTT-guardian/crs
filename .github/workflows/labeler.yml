@@ -1,0 +1,13 @@
+name: "Pull Request Labeler"
+
+on:
+  - pull_request_target
+
+jobs:
+  triage:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 1
+    steps:
+      - uses: actions/labeler@v3
+        with:
+          repo-token: "${{ secrets.BOT_ACCESS_TOKEN }}"
