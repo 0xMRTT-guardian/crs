@@ -2,9 +2,9 @@ name: Label Commenter
 
 on:
   issues:
-    types: [labeled, unlabeled]
+    types: [labeled, unlabeled, opened]
   pull_request_target:
-    types: [labeled, unlabeled]
+    types: [labeled, unlabeled, opened]
 
 permissions:
   contents: read
